@@ -7,7 +7,7 @@ var quotes = [
     'A Copa de 1950, sediada no Brasil, foi a única a não ter uma final oficial. O campeão foi decidido através de um quadrangular final.'
 ]
 
-function newQuote () {
+function newQuote() {
     var randomNumber = Math.floor(Math.random () * (quotes.length));
     document.getElementById('quoteDisplay').innerHTML = quotes(randomNumber);
 }
